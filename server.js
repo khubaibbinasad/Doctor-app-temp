@@ -9,4 +9,5 @@ app.use('/api/user',userRoute);
 const port =  process.env.PORT || 5000;
 
 // console.log(process.env.MONGO_URL)
+// console.log(process.env.MONGO_URL)
 app.listen(port, ()=> console.log(`Node Server Started on port ${port}`));
